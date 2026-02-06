@@ -1,0 +1,30 @@
+{
+  "name": "homework-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node server.js",
+     "dev":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnriGobadze/homework-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnriGobadze/homework-server/issues"
+  },
+  "homepage": "https://github.com/AnriGobadze/homework-server#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
